@@ -21,7 +21,7 @@ npm install whatsapp-web.js xlsx qrcode puppeteer
 ```
 
 ## 📁 Excel Format Example
-Save your Excel file as `numbers.xlsx` and ensure it includes the following headers:
+Save your Excel file as `listwa.xlsx` and ensure it includes the following headers:
 
 | number       | name       | link                         |
 |--------------|------------|------------------------------|
@@ -31,10 +31,10 @@ Save your Excel file as `numbers.xlsx` and ensure it includes the following head
 ## 🛠️ How to Use
 
 1. Clone the repository or copy the script
-2. Place your `numbers.xlsx` file in the same folder
+2. Place your `listwa.xlsx` file in the same folder
 3. Run the app:
    ```bash
-   node index.js
+   node wablast.js
    ```
 4. Scan the QR code using your WhatsApp
 5. Messages will be sent one by one with a short delay
